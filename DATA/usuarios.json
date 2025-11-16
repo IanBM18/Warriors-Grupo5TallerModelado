@@ -1,0 +1,189 @@
+[
+    {
+        "username": "IanBM18",
+        "email": "ianbonillam15@gmail.com",
+        "password": "$2b$12$/fCua2asKvmYjmFQsIVrReQmNEpMB3qizMmD.FVDIjRLwXsPNIhCi",
+        "role": "player",
+        "settings": {
+            "volume": 0.47674418604651164,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png",
+            "soundtrack": 1
+        }
+    },
+    {
+        "username": "IanBM18",
+        "email": "ianbonillam15@gmail.com",
+        "password": "$2b$12$/fCua2asKvmYjmFQsIVrReQmNEpMB3qizMmD.FVDIjRLwXsPNIhCi",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "Pancho",
+        "email": "Pancho13@gmail.com",
+        "password": "$2b$12$iPXeDK11A3CQXciG3HolOOoVmHBT2CKSz9fS4McUcqVF.K5ECXLwi",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "Pancho",
+        "email": "Pancho13@gmail.com",
+        "password": "$2b$12$iPXeDK11A3CQXciG3HolOOoVmHBT2CKSz9fS4McUcqVF.K5ECXLwi",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "PEPE",
+        "email": "PEPE@gmail.com",
+        "password": "$2b$12$whTIdX9T23fBPbv9prqK4eYdePEJ5nj4cipQ9VQj3/7Wx3/H0pmhe",
+        "role": "player",
+        "settings": {
+            "volumen": 90,
+            "foto_perfil": "default.png",
+            "volume": 0.0,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png",
+            "soundtrack": 1
+        }
+    },
+    {
+        "username": "PEPE",
+        "email": "PEPE@gmail.com",
+        "password": "$2b$12$whTIdX9T23fBPbv9prqK4eYdePEJ5nj4cipQ9VQj3/7Wx3/H0pmhe",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "MAMA",
+        "email": "MAMA1@gmail.com",
+        "password": "$2b$12$ICPlNPUhXYMbBiTNpeGIcOaMvnHZoilh8xCHMbaCwoCFRIY6WPVaO",
+        "role": "player",
+        "settings": {
+            "volumen": 50,
+            "foto_perfil": "default.png",
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "MAMA",
+        "email": "MAMA1@gmail.com",
+        "password": "$2b$12$ICPlNPUhXYMbBiTNpeGIcOaMvnHZoilh8xCHMbaCwoCFRIY6WPVaO",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "bmm",
+        "email": "brayanmunozmora16@gmail.com",
+        "password": "$2b$12$R0zDVN8UnI6g1LXTK6tH3.1vwWGN2OQs0eWpAcaOAxPpxAcV4Y4Sm",
+        "role": "player",
+        "settings": {
+            "volume": 0.0,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png",
+            "soundtrack": 2
+        }
+    },
+    {
+        "username": "bmm",
+        "email": "brayanmunozmora16@gmail.com",
+        "password": "$2b$12$R0zDVN8UnI6g1LXTK6tH3.1vwWGN2OQs0eWpAcaOAxPpxAcV4Y4Sm",
+        "role": "player",
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "bmm16",
+        "email": "b.munoz@itcr.ac.cr",
+        "password": "$2b$12$woMK49B9y4s2JggndSzU6OIFA0qAIwxlk7m76bizmbD9kGBz..WzW",
+        "role": "admin",
+        "full_name": "Brayan Mu\u00f1oz",
+        "date_of_birth": "1999-11-11",
+        "profile_photo": {
+            "format": "png",
+            "size_mb": 0.43926525115966797
+        },
+        "settings": {
+            "volume": 0.0,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    },
+    {
+        "username": "bmm16",
+        "email": "b.munoz@itcr.ac.cr",
+        "password": "$2b$12$woMK49B9y4s2JggndSzU6OIFA0qAIwxlk7m76bizmbD9kGBz..WzW",
+        "role": "admin",
+        "full_name": "Brayan Mu\u00f1oz",
+        "date_of_birth": "1999-11-11",
+        "profile_photo": {
+            "format": "png",
+            "size_mb": 0.43926525115966797
+        },
+        "settings": {
+            "volume": 0.5,
+            "music_enabled": true,
+            "effects_enabled": true,
+            "language": "es",
+            "theme_color": "blue",
+            "avatar": "default.png"
+        }
+    }
+]
