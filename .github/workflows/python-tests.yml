@@ -1,0 +1,31 @@
+name: Run Python Tests
+
+# Se ejecuta al hacer push o PR en tu branch de pruebas
+on:
+  push:
+    branches:
+      - BrandonPruebasUnitarias
+  pull_request:
+    branches:
+      - BrandonPruebasUnitarias
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pygame pytest
+
+    - name: Run tests
+      run: python -m pytest tests
