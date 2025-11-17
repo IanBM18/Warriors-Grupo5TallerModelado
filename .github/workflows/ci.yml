@@ -1,0 +1,34 @@
+name: CI Tests - Avatars vs Rooks
+
+on:
+  push:
+    branches: [ "*-pruebas-unitarias" ]  
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    name: Run Unit Tests
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install bcrypt
+    
+    - name: Run unit tests
+      run: |
+        echo "EJECUTANDO PRUEBAS UNITARIAS..."
+        python tests/test_manual.py
+
+
+
+
