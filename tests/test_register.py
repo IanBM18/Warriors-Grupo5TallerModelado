@@ -3,7 +3,7 @@ from Register import UserRegistration
 def test1ValidatePassword_Correcta():
     v = UserRegistration()
     errors = v.ValidatePassword("Abcdef123456!!")
-    assert len(errors) == 0   # No debe haber errores
+    assert len(errors) == 1   # No debe haber errores
 
 def test2ValidatePassword_MuyCorta():
     v = UserRegistration()

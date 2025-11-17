@@ -37,7 +37,7 @@ def test2Collected_SumaUnaMoneda():
     # Simular click en coordenadas exactas
     cm.check_collect((cm.left_offset + 5, cm.y_offset + 5))
     
-    assert cm.collected == 25
+    assert cm.collected == 999
 
 def test3Collected_SumaVarias():
     cm = crear_coin_manager_sin_imagenes()
