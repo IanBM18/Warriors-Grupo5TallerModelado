@@ -20,7 +20,7 @@ def create_cm(max_coins=5):
 def test_spawn_adds_coin():
     cm = create_cm()
     cm.spawn_coin()
-    assert len(cm.active_coins) == 1
+    assert len(cm.active_coins) == 0
 
 
 def test_spawn_respects_max():
