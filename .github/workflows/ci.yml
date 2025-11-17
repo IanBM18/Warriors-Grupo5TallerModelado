@@ -49,12 +49,22 @@ jobs:
     - name: Install dependencies
       run: |
         pip install bcrypt
+        python -c "import bcrypt; print('bcrypt instalado')"
     
     - name: Run unit tests
       run: |
-        echo "EJECUTANDO PRUEBAS UNITARIAS..."
-        python tests/test_manual.py
-        echo "Todas las pruebas pasaron correctamente"
+        echo "🔍 Verificando imports..."
+        python -c "
+        import sys
+        sys.path.append('.')
+        try:
+            from UserAutentication import UserAuthentication
+            print('UserAuthentication importado correctamente')
+        except Exception as e:
+            print(f'Error importando: {e}')
+        "
+        echo "Ejecutando pruebas..."
+        python tests/test_autentication.py
 
 
 
