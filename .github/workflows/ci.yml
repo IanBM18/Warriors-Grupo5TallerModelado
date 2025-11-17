@@ -2,7 +2,7 @@ name: CI Tests - Avatars vs Rooks
 
 on:
   push:
-    branches: [ "sofia-pruebas-unitarias" ] 
+    branches: [ "SofiaPruebasUnitarias" ] 
   pull_request:
     branches: [ "main" ]
 
